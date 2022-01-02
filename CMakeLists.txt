@@ -3,4 +3,4 @@ project(red_black_tree_project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(red_black_tree_project main.cpp)
+add_executable(red_black_tree_project main.cpp Node.h Node.cpp RedBlackTree.h RedBlackTree.cpp)
