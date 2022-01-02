@@ -4,6 +4,6 @@
 
 #include "Node.h"
 
-Node::Node() : val(0), left(nullptr), right(nullptr), parent(nullptr) {}
+Node::Node() : key(0), left(nullptr), right(nullptr), parent(nullptr) {}
 
-Node::Node(int _val) : val(_val), left(nullptr), right(nullptr), parent(nullptr){}
+Node::Node(int _key) : key(_key), left(nullptr), right(nullptr), parent(nullptr){}
